@@ -5,12 +5,10 @@ using namespace std;
 int main(){
     string a,b,c;
 
-    cin >> a;
+    cin >> a >> b >> c;
 
     if(a == "vertebrado"){
-        cin >> b;
         if(b == "ave"){
-            cin >> c;
             if(c == "carnivoro"){
                 cout << "aguia" << endl;
             }
@@ -19,7 +17,6 @@ int main(){
             }
         }
         else{
-            cin >> c;
             if(c == "onivoro"){
                 cout << "homem" << endl;
             }
@@ -29,9 +26,7 @@ int main(){
         }
     }
     else{
-        cin >> b;
         if(b == "inseto"){
-            cin >> c;
             if(c == "hematofago"){
                 cout << "pulga" << endl;
             }
@@ -40,7 +35,6 @@ int main(){
             }
         }
         else{
-            cin >> c;
             if(c == "hematofago"){
                 cout << "sanguessuga" << endl;
             }
